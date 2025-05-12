@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "bun run src/index.ts",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"check": "tsc --noEmit"
 	},
 	"devDependencies": {
 		"@types/bun": "latest"
