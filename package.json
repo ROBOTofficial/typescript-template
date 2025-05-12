@@ -1,19 +1,21 @@
 {
-  "name": "typescript-template",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "start": "bun run src/index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@types/node": "^22.15.17",
-    "bun": "^1.2.13"
-  }
+	"name": "typescript-template",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"start": "bun run src/index.ts",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"@types/node": "^22.15.17",
+		"bun": "^1.2.13",
+		"prettier": "^3.5.3"
+	}
 }
