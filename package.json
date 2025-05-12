@@ -5,7 +5,8 @@
 	"private": true,
 	"scripts": {
 		"start": "bun run src/index.ts",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
 		"@types/bun": "latest"
@@ -14,8 +15,14 @@
 		"typescript": "^5"
 	},
 	"dependencies": {
+		"@eslint/compat": "^1.2.9",
+		"@eslint/js": "^9.26.0",
 		"@types/node": "^22.15.17",
 		"bun": "^1.2.13",
-		"prettier": "^3.5.3"
+		"eslint": "^9.26.0",
+		"eslint-config-prettier": "^10.1.5",
+		"globals": "^16.1.0",
+		"prettier": "^3.5.3",
+		"typescript-eslint": "^8.32.0"
 	}
 }
