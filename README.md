@@ -8,9 +8,11 @@ This template was created to facilitate the creation of typescript projects.
 - TypeScript
 - ESlint
 - Prettier
+- Changesets
 
 ## Settings
 
 - [Dependa Bot](./.github/dependabot.yml)
 - [CI Test](./.github/workflows/ci.yml)
+- [Changesets release](./.github/workflows/release.yml)
 - [Visual Studio Code](./.vscode/launch.json)
